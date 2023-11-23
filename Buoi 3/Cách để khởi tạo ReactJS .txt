@@ -1,0 +1,2 @@
+Cách để khởi tạo ReactJS 
+B1. nhập lệnh : npm create vite
