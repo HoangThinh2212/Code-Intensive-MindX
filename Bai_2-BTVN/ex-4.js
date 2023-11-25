@@ -6,8 +6,7 @@ function addContact() {
 
   console.log("arr1: ", arrContact);
   listNameContact();
-  nameContact.innerHTML = "";
-  phoneContact.innerHTML = "";
+  
 }
 function listNameContact() {
   const print = document.getElementById("contactList");
@@ -16,4 +15,6 @@ function listNameContact() {
   arrContact.forEach((item) => {
     print.innerHTML += item.name + "--" + item.phone + "<br>";
   });
+  nameContact.value = "";
+  phoneContact.value = "";
 }
